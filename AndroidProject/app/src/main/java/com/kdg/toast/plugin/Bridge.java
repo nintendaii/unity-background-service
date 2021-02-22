@@ -16,9 +16,12 @@ import android.util.Log;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Arrays;
 
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import static androidx.core.app.ActivityCompat.requestPermissions;
 
 public final class Bridge extends Application {
     static int summarySteps;
@@ -73,7 +76,7 @@ public final class Bridge extends Application {
         editor.putString(INIT_DATE,currentDate.toString());
         editor.putString(DATE,currentDate.toString());
         editor.apply();
-        Log.i("PEDOMETER", "SyncData: "+steps+' '+summarySteps);
+        Log.i("PEDOMETER", "SyncData: "+steps+' '+summarySteps+data);
         return data;
     }
 
@@ -81,6 +84,15 @@ public final class Bridge extends Application {
     public void onCreate() {
         super.onCreate();
         Bridge.appContext=getApplicationContext();
+        String[] perms= new String[1];
+        perms[0]=Manifest.permission.ACTIVITY_RECOGNITION;
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACTIVITY_RECOGNITION)
+                != PackageManager.PERMISSION_GRANTED) {
+            Log.i("PEDOMETER", "Permision isnt granted!");
+            ActivityCompat.requestPermissions(Bridge.myActivity,
+                    perms,
+                    1);
+        }
 
     }
     public static void checkOptimization(){

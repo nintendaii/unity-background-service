@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidProject-JavaPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidProject-JavaPlugin.iml" group="JavaPlugin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaPlugin.iml" group="JavaPlugin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JavaPlugin-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JavaPlugin-app.iml" group="JavaPlugin/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="JavaPlugin/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JavaPlugin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JavaPlugin.app.iml" />
     </modules>
   </component>
 </project>
