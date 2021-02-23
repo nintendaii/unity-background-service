@@ -37,6 +37,15 @@ public final class Bridge extends Application {
 
     public static void receiveActivityInstance(Activity tempActivity) {
         myActivity = tempActivity;
+        String[] perms= new String[1];
+        perms[0]=Manifest.permission.ACTIVITY_RECOGNITION;
+        if (ContextCompat.checkSelfPermission(myActivity, Manifest.permission.ACTIVITY_RECOGNITION)
+                != PackageManager.PERMISSION_GRANTED) {
+            Log.i("PEDOMETER", "Permision isnt granted!");
+            ActivityCompat.requestPermissions(Bridge.myActivity,
+                    perms,
+                    1);
+        }
     }
 
     public static void StartCheckerService() {
@@ -84,15 +93,6 @@ public final class Bridge extends Application {
     public void onCreate() {
         super.onCreate();
         Bridge.appContext=getApplicationContext();
-        String[] perms= new String[1];
-        perms[0]=Manifest.permission.ACTIVITY_RECOGNITION;
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACTIVITY_RECOGNITION)
-                != PackageManager.PERMISSION_GRANTED) {
-            Log.i("PEDOMETER", "Permision isnt granted!");
-            ActivityCompat.requestPermissions(Bridge.myActivity,
-                    perms,
-                    1);
-        }
 
     }
     public static void checkOptimization(){

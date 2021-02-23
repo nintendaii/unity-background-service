@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" xmlns:deviceSimulator="Unity.DeviceSimulator">
+    <Template src="ui_screen_settings.uxml" name="ScreenSettings" />
+    <Template src="ui_application_settings.uxml" name="ApplicationSettings" />
+    <editor:Toolbar class="unity-device-simulator__toolbar">
+        <editor:ToolbarMenu name="playmode-view-menu" />
+        <VisualElement name="device-list-menu" class="unity-toolbar-menu">
+            <TextElement name="selected-device-name" class="unity-toolbar-menu__text" style="max-width:180px" />
+            <VisualElement class="unity-toolbar-menu__arrow" />
+        </VisualElement>
+        <editor:ToolbarButton name="reload-player-settings" style="-unity-text-align: middle-center;" text="Reload" tooltip="Reload the player settings" />
+    </editor:Toolbar>
+    <deviceSimulator:TwoPaneSplitView name="splitter" left-pane-initial-size="300" minimum-left-pane-size="235" minimum-right-pane-size="200">
+        <editor:Style src="../StyleSheets/styles_split_view.uss" />
+        <editor:Style src="../StyleSheets/styles_common.uss" />
+        <ScrollView mode="Vertical">
+            <VisualElement class="unity-device-simulator__control-panel" name="control-panel">
+                <Foldout class="unity-device-simulator__control-panel_foldout" text="Device Specifications" value="true" name="device-specifications">
+                    <Label class="unity-device-simulator__control-panel-label" text="OS: N/A" name="device_os" />
+                    <Label class="unity-device-simulator__control-panel-label" text="CPU: N/A" name="device_cpu" />
+                    <Label class="unity-device-simulator__control-panel-label" text="GPU: N/A" name="device_gpu" />
+                    <Label class="unity-device-simulator__control-panel-label" text="Resolution: 0 x 0" name="device_resolution" />
+                </Foldout>
+                <Instance template="ScreenSettings" />
+                <Instance template="ApplicationSettings" />
+            </VisualElement>
+        </ScrollView>
+        <VisualElement name="preview-panel">
+            <editor:Toolbar class="unity-device-simulator__preview-panel-toolbar" name="preview-toolbar">
+                <editor:ToolbarButton class="unity-device-simulator__hide-control-panel" name="hide-control-panel" />
+                <Label text="Scale" class="unity-toolbar-button unity-device-simulator__scale-label" />
+                <SliderInt class="unity-device-simulator__scale-slider" name="scale-slider" />
+                <Label class="unity-device-simulator__scale-value-label" name="scale-value-label" />
+                <editor:ToolbarToggle text="Fit to Screen" name="fit-to-screen" />
+                <Label text="Rotate" class="unity-device-simulator__rotate-label" />
+                <VisualElement class="unity-toolbar-button unity-device-simulator__rotate-image-container" name="rotate-cw">
+                    <Image class="unity-device-simulator__rotate-cw-image" name="rotate-cw-image" />
+                </VisualElement>
+                <VisualElement class="unity-toolbar-button unity-device-simulator__rotate-image-container" name="rotate-ccw">
+                    <Image class="unity-device-simulator__rotate-ccw-image" name="rotate-ccw-image" />
+                </VisualElement>
+                <editor:ToolbarToggle text="Safe Area" name="highlight-safe-area" />
+            </editor:Toolbar>
+            <VisualElement class="unity-device-simulator__inactive-msg-container" name="inactive-msg-container">
+                <Label style="color:black" text="Simulator is currently not active." />
+                <Image class="unity-toolbar-button" style="width:16px; height:16px" name="close-inactive-msg" />
+            </VisualElement>
+            <VisualElement class="unity-device-simulator__scrollview-container" name="scrollview-container">
+                <ScrollView class="unity-device-simulator__preview-scrollview" name="preview-scroll-view" mode="VerticalAndHorizontal">
+                    <VisualElement class="unity-device-simulator__preview-container" name="preview-container">
+                    </VisualElement>
+                </ScrollView>
+            </VisualElement>
+        </VisualElement>
+    </deviceSimulator:TwoPaneSplitView>
+</UXML>

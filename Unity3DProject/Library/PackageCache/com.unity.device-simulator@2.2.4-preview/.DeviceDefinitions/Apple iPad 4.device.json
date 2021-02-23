@@ -1,0 +1,187 @@
+{
+    "friendlyName": "Apple iPad 4",
+    "version": 1,
+    "Screens": [
+        {
+            "width": 1536,
+            "height": 2048,
+            "navigationBarHeight": 0,
+            "dpi": 264.0,
+            "orientations": [
+                {
+                    "orientation": 1,
+                    "safeArea": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1536.0,
+                        "height": 2048.0
+                    },
+                    "cutouts": []
+                },
+                {
+                    "orientation": 2,
+                    "safeArea": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1536.0,
+                        "height": 2048.0
+                    },
+                    "cutouts": []
+                },
+                {
+                    "orientation": 3,
+                    "safeArea": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 2048.0,
+                        "height": 1536.0
+                    },
+                    "cutouts": []
+                },
+                {
+                    "orientation": 4,
+                    "safeArea": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 2048.0,
+                        "height": 1536.0
+                    },
+                    "cutouts": []
+                }
+            ],
+            "presentation": {
+                "overlayPath": "Apple iPad 4_Overlay.png",
+                "borderSize": {
+                    "x": 187.0,
+                    "y": 229.0,
+                    "z": 187.0,
+                    "w": 229.0
+                },
+                "cornerRadius": 78.0
+            }
+        }
+    ],
+    "SystemInfo": {
+        "deviceModel": "iPad3,4",
+        "deviceType": 1,
+        "operatingSystem": "iOS 10.3.3",
+        "operatingSystemFamily": 0,
+        "processorCount": 2,
+        "processorFrequency": 0,
+        "processorType": "armv7s",
+        "supportsAccelerometer": true,
+        "supportsAudio": true,
+        "supportsGyroscope": true,
+        "supportsLocationService": true,
+        "supportsVibration": false,
+        "systemMemorySize": 987,
+        "unsupportedIdentifier": "n/a",
+        "graphicsDependentData": [
+            {
+                "graphicsDeviceType": 8,
+                "graphicsMemorySize": 256,
+                "graphicsDeviceName": "PowerVR SGX 554",
+                "graphicsDeviceVendor": "Imagination Technologies",
+                "graphicsDeviceID": 0,
+                "graphicsDeviceVendorID": 0,
+                "graphicsUVStartsAtTop": false,
+                "graphicsDeviceVersion": "OpenGL ES 2.0 IMGSGX554-129",
+                "graphicsShaderLevel": 30,
+                "graphicsMultiThreaded": true,
+                "renderingThreadingMode": 0,
+                "hasHiddenSurfaceRemovalOnGPU": true,
+                "hasDynamicUniformArrayIndexingInFragmentShaders": true,
+                "supportsShadows": true,
+                "supportsRawShadowDepthSampling": true,
+                "supportsMotionVectors": true,
+                "supports3DTextures": false,
+                "supports2DArrayTextures": false,
+                "supports3DRenderTextures": false,
+                "supportsCubemapArrayTextures": false,
+                "copyTextureSupport": 0,
+                "supportsComputeShaders": false,
+                "supportsGeometryShaders": false,
+                "supportsTessellationShaders": false,
+                "supportsInstancing": false,
+                "supportsHardwareQuadTopology": false,
+                "supports32bitsIndexBuffer": true,
+                "supportsSparseTextures": false,
+                "supportedRenderTargetCount": 1,
+                "supportsSeparatedRenderTargetsBlend": false,
+                "supportedRandomWriteTargetCount": 0,
+                "supportsMultisampledTextures": 0,
+                "supportsMultisampleAutoResolve": false,
+                "supportsTextureWrapMirrorOnce": 0,
+                "usesReversedZBuffer": false,
+                "npotSupport": 1,
+                "maxTextureSize": 4096,
+                "maxCubemapSize": 4096,
+                "maxComputeBufferInputsVertex": 0,
+                "maxComputeBufferInputsFragment": 0,
+                "maxComputeBufferInputsGeometry": 0,
+                "maxComputeBufferInputsDomain": 0,
+                "maxComputeBufferInputsHull": 0,
+                "maxComputeBufferInputsCompute": 0,
+                "maxComputeWorkGroupSize": 0,
+                "maxComputeWorkGroupSizeX": 0,
+                "maxComputeWorkGroupSizeY": 0,
+                "maxComputeWorkGroupSizeZ": 0,
+                "supportsAsyncCompute": false,
+                "supportsGraphicsFence": true,
+                "supportsAsyncGPUReadback": false,
+                "supportsRayTracing": false,
+                "supportsSetConstantBuffer": false,
+                "minConstantBufferOffsetAlignment": false,
+                "hasMipMaxLevel": true,
+                "supportsMipStreaming": true,
+                "usesLoadStoreActions": true,
+                "supportedTextureFormats": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    7,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    22,
+                    30,
+                    31,
+                    32,
+                    33,
+                    62,
+                    63
+                ],
+                "supportedRenderTextureFormats": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    9,
+                    13,
+                    15,
+                    16,
+                    20,
+                    22,
+                    25
+                ],
+                "ldrGraphicsFormat": 8,
+                "hdrGraphicsFormat": 48
+            }
+        ]
+    }
+}

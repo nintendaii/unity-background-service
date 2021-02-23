@@ -1,0 +1,17 @@
+{
+    "name": "Unity.DeviceSimulator.Tests.Common",
+    "references": [
+        "GUID:4e3d788a04c14f749821b3416e12f019"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

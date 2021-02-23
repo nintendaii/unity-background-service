@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement>
+        <uie:Style src="../StyleSheets/styles_settings.uss" />
+        <ui:VisualElement class="settings-container">
+            <ui:Label text="Device Simulator" class="settings-title" />
+            <ui:Label text="Device Directory" class="section-title" />
+            <ui:VisualElement class="user-device-directory-container">
+                <ui:TextField class="user-device-directory-field" label="Directory" name="customized-device-directory" />
+                <ui:Button text="Browse" class="user-device-directory-button" name="browse-customized-device-directory" />
+            </ui:VisualElement>
+            <ui:Label text="Safe Area" class="section-title" />
+            <uie:ColorField label="Highlight Color" binding-path="SafeAreaHighlightColor" />
+            <ui:VisualElement class="user-safe-area-line-width-container">
+                <ui:SliderInt class="user-safe-area-line-color" label="Line Width" binding-path="SafeAreaHighlightLineWidth" low-value="1" high-value="10" />
+                <ui:Label class="user-safe-area-line-width-label" binding-path="SafeAreaHighlightLineWidth" />
+            </ui:VisualElement>
+            <ui:Label text="Others" class="section-title" />
+            <ui:VisualElement class="user-maximum-visible-device-count-container" tooltip="Maximum visible device count in the device dropDown list">
+                <ui:SliderInt class="user-maximum-visible-device-count" label="Visible Device Count" binding-path="MaximumVisibleDeviceCount" low-value="5" high-value="30" />
+                <ui:Label class="user-maximum-visible-device-count-label" binding-path="MaximumVisibleDeviceCount" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

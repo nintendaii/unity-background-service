@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <Foldout class="unity-device-simulator__control-panel_foldout" text="Application Settings" value="true" name="application-settings">
+        <editor:EnumField style="min-width:270px" label="System Language" value="Center" name="application-system-language" />
+        <editor:EnumField style="min-width:270px" label="Internet Reachability" value="Center" name="application-internet-reachability" />
+        <Button text="On Low Memory" tooltip="Trigger the Application.lowMemory events" name="application-low-memory" />
+    </Foldout>
+</UXML>

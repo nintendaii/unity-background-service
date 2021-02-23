@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <Foldout class="unity-device-simulator__control-panel_foldout" text="Screen Settings" value="true" name="screen-settings">
+        <VisualElement name="screen-set-resolution-field" class="unity-device-simulator__screen-resolution-field">
+            <Label text="Resolution"/>
+            <editor:IntegerField name="screen-width" max-length="4" />
+            <editor:IntegerField name="screen-height" max-length="4" />
+            <Button text="Set" name="screen-set-resolution-button" />
+        </VisualElement>
+        <Toggle label="Full Screen" class="unity-device-simulator__screen-toggle" name="full-screen" value="true" />
+        <Toggle label="Auto Rotation" class="unity-device-simulator__screen-toggle" name="auto-rotation" />
+        <editor:EnumField label="Orientation" class="unity-device-simulator__orientation" value="Center" name="screen-orientations" />
+        <VisualElement class="unity-device-simulator__orientation_static" name="rendered-orientation-container">
+            <Label text="Orientation" style="-unity-text-align:middle-left; margin-left:3px; width: 132px" />
+            <Label text="Portrait" name="rendered-orientation" style="margin-left:2px;" />
+        </VisualElement>
+        <VisualElement text="Allowed Orientations" class="unity-device-simulator__allowed-orientations" name="allowed-orientations" value="true">
+            <Label text="Allowed Orientations"/>
+            <Toggle label="Portrait" name="orientation-allow-portrait" />
+            <Toggle label="Portrait Upside Down" name="orientation-allow-portrait-upside-down" />
+            <Toggle label="Landscape Left" name="orientation-allow-landscape-left" />
+            <Toggle label="Landscape Right" name="orientation-allow-landscape-right" />
+        </VisualElement>
+    </Foldout>
+</UXML>
