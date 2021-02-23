@@ -48,7 +48,7 @@ public class BackgroundService : MonoBehaviour
         int? stepsCount = customClass.CallStatic<int>("GetCurrentSteps");
         stepsText.text = stepsCount.ToString();
     }
-    public void SendDataToServer()
+    public void SyncData()
     {
         string data;
         data = customClass.CallStatic<string>("SyncData");

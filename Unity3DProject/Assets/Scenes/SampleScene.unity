@@ -574,7 +574,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1768817487}
         m_TargetAssemblyTypeName: BackgroundService, Assembly-CSharp
-        m_MethodName: SendDataToServer
+        m_MethodName: SyncData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
