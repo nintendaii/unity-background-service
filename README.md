@@ -1,12 +1,12 @@
 
-# What is Unity Background Service?
+## What is Unity Background Service?
 Unity Background Service is a project that shows how to create an Android service for Unity application working on background. 
-Usually Android service (especially in Unity apps) shuts down when we kill the app. It is impossible to make the service working fully in background. The only solution is to let the
+Usually Android service (especially in Unity apps) shuts down when we kill the app. It is impossible to make the service working fully on background. The only solution is to let the
 service work on foreground as a notification and then the users are able to hide that notification if they wants to.
 Specifically, this project shows the creation of a step counting service that works on background. 
-# How to use?
+## How to use?
 (gif will be added soon)
-# How it works?
+## How it works?
 ---
 ### [Unity](https://github.com/nintendaii/unity-background-service/tree/master/Unity3DProject)
 The main scene is located in Assets/Scenes. To see the example code go to [BackgroundService](https://github.com/nintendaii/unity-background-service/blob/master/Unity3DProject/Assets/Scripts/BackgroundService.cs) class. Explanation of the methods:
@@ -25,7 +25,7 @@ void SendActivityReference(string packageName)
   3. `SyncData` method returns a string data that holds 3 variables separated with # symbol:
    - date of `StartService` method invocation
    - date of `SyncData` method invocation
-   - count of steps walked during these period
+   - count of steps walked during this period
 ```c# 
 public void SyncData()
     {
@@ -48,7 +48,7 @@ public void SyncData()
  ---
  ### [Android](https://github.com/nintendaii/unity-background-service/tree/master/AndroidProject)
  The entry point of the Android application is the [`Bridge`](https://github.com/nintendaii/unity-background-service/blob/master/AndroidProject/app/src/main/java/com/kdg/toast/plugin/Bridge.java) class. Explanation of the methods:
- 1. The `receiveActivityInstance` method is called when the `SendActivityReference` from Unity executes. It takes the Unity activity to know where to start the background service in the future. Also it checks if the permission for activity recognition is granted and asks for the permission if it is not(this logic is implemented for Android API 28 and above).
+ 1. The `receiveActivityInstance` method is called when the `SendActivityReference` from Unity executes. It takes the Unity activity to know where to start the background service in the future. Also it checks if the permission for activity recognition is granted and asks for the permission if it is not (this logic is implemented for Android API 28 and above).
 ```java
 public static void receiveActivityInstance(Activity tempActivity) {
         myActivity = tempActivity;
