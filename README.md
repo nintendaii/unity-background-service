@@ -5,7 +5,8 @@ Usually Android service (especially in Unity apps) shuts down when we kill the a
 service work on foreground as a notification and then the users are able to hide that notification if they wants to.
 Specifically, this project shows the creation of a step counting service that works on background. 
 ## How to use?
-(gif will be added soon)
+![doc_2021-03-02_12-38-25](https://user-images.githubusercontent.com/44233090/109638719-04edda00-7b57-11eb-9929-abd2e5665b42.gif)
+
 ## How it works?
 ---
 ### [Unity](https://github.com/nintendaii/unity-background-service/tree/master/Unity3DProject)
