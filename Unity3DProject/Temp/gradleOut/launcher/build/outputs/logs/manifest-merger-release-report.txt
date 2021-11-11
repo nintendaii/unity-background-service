@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-63:12
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-111
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:112-158
+	android:versionCode
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:159-199
+supports-screens
+ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
+application
+ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
+MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-61:19
+MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-61:19
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:17:5-24:19
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:17:5-24:19
+	android:extractNativeLibs
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+	android:appComponentFactory
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:19:9-77
+	android:label
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+	android:icon
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:18:9-51
+uses-sdk
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-49
+	android:launchMode
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
+	android:theme
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
+	android:value
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
+	android:name
+		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:5-95
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:22-92
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:22-78
+service#com.kdg.toast.plugin.PedometerService
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:20:9-23:39
+	android:enabled
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:22:13-35
+	android:exported
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:21:13-65

@@ -1,67 +1,70 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class BackgroundService : MonoBehaviour
 {
-    AndroidJavaClass unityClass;
-    AndroidJavaObject unityActivity;
-    AndroidJavaClass customClass;
-    [SerializeField]
-    TextMeshProUGUI stepsText;
-    [SerializeField]
-    TextMeshProUGUI totalStepsText;
-    [SerializeField]
-    TextMeshProUGUI syncedDateText;
+    [SerializeField] private TextMeshProUGUI stepsText;
+    [SerializeField] private TextMeshProUGUI totalStepsText;
+    [SerializeField] private TextMeshProUGUI syncedDateText;
 
-    private string _prlayerPrefsTotalSteps="totalSteps";
-    
+    private AndroidJavaClass unityClass;
+    private AndroidJavaObject unityActivity;
+    private AndroidJavaClass customClass;
+    private const string PlayerPrefsTotalSteps = "totalSteps";
+    private const string PackageName = "com.kdg.toast.plugin.Bridge";
+    private const string UnityDefaultJavaClassName = "com.unity3d.player.UnityPlayer";
+    private const string CustomClassReceiveActivityInstanceMethod = "ReceiveActivityInstance";
+    private const string CustomClassStartServiceMethod = "StartService";
+    private const string CustomClassStopServiceMethod = "StopService";
+    private const string CustomClassGetCurrentStepsMethod = "GetCurrentSteps";
+    private const string CustomClassSyncDataMethod = "SyncData";
+
 
     private void Awake()
     {
-        SendActivityReference("com.kdg.toast.plugin.Bridge");
+        SendActivityReference(PackageName);
         GetCurrentSteps();
     }
-    
 
-    void SendActivityReference(string packageName)
+
+    private void SendActivityReference(string packageName)
     {
-        unityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        unityClass = new AndroidJavaClass(UnityDefaultJavaClassName);
         unityActivity = unityClass.GetStatic<AndroidJavaObject>("currentActivity");
         customClass = new AndroidJavaClass(packageName);
-        customClass.CallStatic("receiveActivityInstance", unityActivity);
+        customClass.CallStatic(CustomClassReceiveActivityInstanceMethod, unityActivity);
     }
 
     public void StartService()
     {
-        customClass.CallStatic("StartCheckerService");
+        customClass.CallStatic(CustomClassStartServiceMethod);
         GetCurrentSteps();
     }
+
     public void StopService()
     {
-        customClass.CallStatic("StopCheckerService");
+        customClass.CallStatic(CustomClassStopServiceMethod);
     }
+
     public void GetCurrentSteps()
     {
-        int? stepsCount = customClass.CallStatic<int>("GetCurrentSteps");
+        int? stepsCount = customClass.CallStatic<int>(CustomClassGetCurrentStepsMethod);
         stepsText.text = stepsCount.ToString();
     }
+
     public void SyncData()
     {
-        string data;
-        data = customClass.CallStatic<string>("SyncData");
-        
-        string[] parsedData = data.Split('#');
-        string dateOfSync=parsedData[0] + " - " + parsedData[1];
+        var data = customClass.CallStatic<string>(CustomClassSyncDataMethod);
+
+        var parsedData = data.Split('#');
+        var dateOfSync = parsedData[0] + " - " + parsedData[1];
         syncedDateText.text = dateOfSync;
-        int receivedSteps = Int32.Parse(parsedData[2]);
-        int prefsSteps = PlayerPrefs.GetInt(_prlayerPrefsTotalSteps,0);
-        int prefsStepsToSave = prefsSteps + receivedSteps;
-        PlayerPrefs.SetInt(_prlayerPrefsTotalSteps,prefsStepsToSave);
+        var receivedSteps = int.Parse(parsedData[2]);
+        var prefsSteps = PlayerPrefs.GetInt(PlayerPrefsTotalSteps, 0);
+        var prefsStepsToSave = prefsSteps + receivedSteps;
+        PlayerPrefs.SetInt(PlayerPrefsTotalSteps, prefsStepsToSave);
         totalStepsText.text = prefsStepsToSave.ToString();
-        
+
         GetCurrentSteps();
     }
 }
