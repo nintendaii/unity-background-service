@@ -35,7 +35,7 @@ public final class Bridge extends Application {
     static final String DATE="currentDate";
     static final String INIT_DATE="initialDate";
 
-    public static void receiveActivityInstance(Activity tempActivity) {
+    public static void ReceiveActivityInstance(Activity tempActivity) {
         myActivity = tempActivity;
         String[] perms= new String[1];
         perms[0]=Manifest.permission.ACTIVITY_RECOGNITION;
@@ -48,12 +48,11 @@ public final class Bridge extends Application {
         }
     }
 
-    public static void StartCheckerService() {
-        checkOptimization();
-        myActivity.startService(new Intent(myActivity, PedometerService.class));
+    public static void StartService() {
+        myActivity.startForegroundService(new Intent(myActivity, PedometerService.class));
     }
 
-    public static void StopCheckerService(){
+    public static void StopService(){
         Intent serviceIntent = new Intent(myActivity, PedometerService.class);
         myActivity.stopService(serviceIntent);
 
@@ -94,25 +93,5 @@ public final class Bridge extends Application {
         super.onCreate();
         Bridge.appContext=getApplicationContext();
 
-    }
-    public static void checkOptimization(){
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            String packageName = myActivity.getPackageName();
-            Log.i("PEDOMETER", "checkOptimization: PACKAGE NAME: "+packageName);
-            PowerManager pm = (PowerManager) myActivity.getSystemService(Context.POWER_SERVICE);
-            if (pm != null) {
-                if (!pm.isIgnoringBatteryOptimizations(packageName)) {
-                    try {
-                        Intent intent = new Intent();
-                        intent.setAction(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
-                        intent.setData(Uri.parse("package:" + packageName));
-                        myActivity.startActivity(intent);
-                    }
-                    catch (Exception e){
-                    }
-
-                }
-            }
-        }
     }
 }

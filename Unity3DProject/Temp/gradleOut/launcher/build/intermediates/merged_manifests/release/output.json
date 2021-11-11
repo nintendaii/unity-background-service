@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"0.3","enabled":true,"outputFile":"launcher-release.apk","fullName":"release","baseName":"release","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.Engineria.BackgroundService","split":"","minSdkVersion":"26"}}]
