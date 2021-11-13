@@ -75,7 +75,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="7191fa0f-b5bb-466b-9722-17cf1f2ac58f" />
+            android:value="b67c3a0b-c63a-41d2-b584-a7e7814f3ef1" />
 
         <service
             android:name="com.kdg.toast.plugin.PedometerService"

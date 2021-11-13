@@ -54,27 +54,27 @@
 32-->[:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
 33
 34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-34-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:5-77
-34-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:22-74
+34-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:11:5-77
+34-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:11:22-74
 35    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-35-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:5-79
-35-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:22-76
+35-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:12:5-79
+35-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:12:22-76
 36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-36-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:5-75
-36-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:22-72
+36-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:13:5-75
+36-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:13:22-72
 37    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-37-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:5-95
-37-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:22-92
+37-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:14:5-95
+37-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:14:22-92
 38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-38-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:5-81
-38-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:22-78
+38-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:15:5-81
+38-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:15:22-78
 39
 40    <application
 40-->/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
 41        android:name="com.kdg.toast.plugin.Bridge"
-41-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:18:9-51
+41-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:18:9-51
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:19:9-77
+42-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:19:9-77
 43        android:extractNativeLibs="true"
 43-->/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
 44        android:icon="@mipmap/app_icon"
@@ -142,17 +142,17 @@
 76-->[:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
 77            android:name="unity.build-id"
 77-->[:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
-78            android:value="7191fa0f-b5bb-466b-9722-17cf1f2ac58f" />
+78            android:value="b67c3a0b-c63a-41d2-b584-a7e7814f3ef1" />
 78-->[:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
 79
 80        <service
-80-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:20:9-23:39
+80-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:20:9-23:39
 81            android:name="com.kdg.toast.plugin.PedometerService"
-81-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:21:13-65
+81-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:21:13-65
 82            android:enabled="true"
-82-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:22:13-35
+82-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:22:13-35
 83            android:exported="true" />
-83-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:23:13-36
+83-->[:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:23:13-36
 84    </application>
 85
 86</manifest>

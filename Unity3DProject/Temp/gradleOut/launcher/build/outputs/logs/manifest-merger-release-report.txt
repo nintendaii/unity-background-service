@@ -5,7 +5,7 @@ INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DP
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-63:12
-MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:2:1-26:12
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:2:1-26:12
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
@@ -43,26 +43,26 @@ application
 ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
 MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-61:19
 MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-61:19
-MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:17:5-24:19
-MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:17:5-24:19
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:17:5-24:19
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:17:5-24:19
 	android:extractNativeLibs
 		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
 	android:appComponentFactory
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:19:9-77
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:19:9-77
 	android:label
 		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
 	android:icon
 		ADDED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:18:9-51
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:18:9-51
 uses-sdk
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
 MERGED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
-MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 INJECTED from /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -162,30 +162,30 @@ ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-ser
 	android:name
 		ADDED from [:unityLibrary] /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:5-77
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:11:5-77
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:11:22-74
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:11:22-74
 uses-permission#android.permission.ACTIVITY_RECOGNITION
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:5-79
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:12:22-76
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:5-75
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:13:22-72
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:13:22-72
 uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:5-95
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:14:5-95
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:14:22-92
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:14:22-92
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:5-81
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:15:22-78
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:15:22-78
 service#com.kdg.toast.plugin.PedometerService
-ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:20:9-23:39
+ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:20:9-23:39
 	android:enabled
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:22:13-35
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:22:13-35
 	android:exported
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:23:13-36
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/9255befb8c413efec7dcd56f4a3f5692/app-debug/AndroidManifest.xml:21:13-65
+		ADDED from [:app-debug:] /Users/daniel/.gradle/caches/transforms-2/files-2.1/d2a579cc9f3246064c9e9a3531d98c13/app-debug/AndroidManifest.xml:21:13-65

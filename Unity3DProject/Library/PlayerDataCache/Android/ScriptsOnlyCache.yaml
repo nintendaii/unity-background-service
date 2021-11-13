@@ -532,4 +532,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Builds/Newtest1.apk
+  playerPath: /Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Builds/BackgroundPedometerService.v0.3.1.apk

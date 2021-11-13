@@ -1,4 +1,4 @@
-#Thu Nov 11 15:29:22 EET 2021
+#Sat Nov 13 14:09:30 EET 2021
 base.0=/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

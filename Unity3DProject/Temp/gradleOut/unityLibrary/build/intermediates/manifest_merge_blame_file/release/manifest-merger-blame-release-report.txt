@@ -103,7 +103,7 @@
 58-->/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 59            android:name="unity.build-id"
 59-->/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-60            android:value="7191fa0f-b5bb-466b-9722-17cf1f2ac58f" />
+60            android:value="b67c3a0b-c63a-41d2-b584-a7e7814f3ef1" />
 60-->/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 61    </application>
 62

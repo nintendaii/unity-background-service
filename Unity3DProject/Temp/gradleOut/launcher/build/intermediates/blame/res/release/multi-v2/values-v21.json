@@ -4,25 +4,6 @@
             "outputFile": "/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/daniel/.gradle/caches/transforms-2/files-2.1/1ec081a7cb155042db205c14daf17bcc/app-debug/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,8,9,10,11,12,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,472,588,714,840,968,1140",
-                        "endLines": "2,3,4,5,8,9,10,11,14,19",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,583,709,835,963,1135,1487"
-                    }
-                },
-                {
                     "source": "/Users/daniel/Documents/Projects/unity-background-service/Unity3DProject/Temp/gradleOut/launcher/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
@@ -39,6 +20,25 @@
                         "endLines": "7",
                         "endColumns": "8",
                         "endOffsets": "467"
+                    }
+                },
+                {
+                    "source": "/Users/daniel/.gradle/caches/transforms-2/files-2.1/88ed63615d56f1885baf30a5ae29c310/app-debug/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,8,9,10,11,12,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,472,588,714,840,968,1140",
+                        "endLines": "2,3,4,5,8,9,10,11,14,19",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,583,709,835,963,1135,1487"
                     }
                 }
             ]
